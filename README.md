@@ -1,50 +1,3 @@
- 1Percent - L'Argent Devrait Arriver en Entier
-
-https://img.shields.io/badge/License-MIT-green.svg
-https://img.shields.io/badge/Website-1Percent-blue
-
-💸 Le Problème : Pourquoi Payer 3.5% Quand 1% Suffit ?
-
-PayPal prend 3.5%, Stripe 2.9% + 0.30€, Western Union 8-12%. 
-La diaspora africaine perd des milliards chaque année en frais abusifs.
-
-🎯 Notre Solution : 1% de Frais, Point Final
-
-1Percent est un système de paiement intelligent qui utilise Nexus Core, notre algorithme open-source, pour trouver systématiquement le chemin le plus rapide et le moins cher.
-
-📊 Comparaison Brutale (sur 100€)
-
-Service Frais Reçu Économie avec 1Percent
-PayPal 3.50€ 96.50€ +2.50€
-Stripe 3.20€ 96.80€ +2.20€
-1Percent 1.00€ 99.00€ REFERENCE
-
-🧠 Comment Nexus Core Fonctionne
-
-```
-1. Écoute : Montant, source, destination
-2. Analyse : Scan 20+ corridors en temps réel
-3. Décide : Trouve la route optimale (coût × vitesse × fiabilité)
-4. Exécute : Transfert à 1% de frais maximum
-```
-
-🌍 Conçu Depuis l'Afrique, Pour le Monde
-
-· Focus corridors : Europe → Afrique (RDC, Sénégal, Côte d'Ivoire...)
-· Intégration native : MPesa, Airtel Money, Orange Money
-· Transparence radicale : Vous voyez tout avant de payer
-
-🚀 Démo Immédiate
-
-👉 Tester notre comparateur de frais en direct
-
-🛠️ Stack Technique
-
-· Frontend : HTML5, CSS3, JavaScript (Vanilla)
-· Backend : Node.js + Express (en développement)
-· Algorithme : Nexus Core (routage intelligent)
-· Hébergement : GitHub Pages + GoDaddy
-
 1percent-finance/
 ├── prototypes/
 │   ├── calculator/          # Ton comparateur
@@ -347,47 +300,6 @@ Response:
     }
   ]
 }
-
----
-
-## 🔍 **4. RECHERCHE (research/)**
-
-**Fichier : `fee-analysis.md`**
-```markdown
-# 📊 Analyse des Frais du Marché
-
-## Données collectées (Mars 2026)
-
-### PayPal
-- Transferts entre particuliers : 3.5% + 0€ fixe
-- Ventes en ligne : 3.4% + 0.35€
-- Taux de change : +2.5% à 4% sur le taux interbancaire
-
-### Stripe
-- Standard : 2.9% + 0.30€
-- Cartes internationales : +1.5%
-- Currency conversion : +1% si différente de la devise du compte
-
-### Western Union (France → RDC)
-- 100€ → 8.00€ à 10.50€ de frais (8-10.5%)
-- Livraison Mobile Money : 15 minutes à 24h
-- Taux de change : ~5% de marge
-
-### MoneyGram
-- Similaire à Western Union
-- Frais légèrement inférieurs (7.5-9.5%)
-
-### TransferWise/Wise
-- Frais transparents : ~0.5% + taux réel
-- Mais limitations sur l'Afrique
-
-## Opportunité identifiée
-Le corridor France → RDC présente les frais les plus élevés (8-12%) 
-pour un service qui pourrait techniquement coûter <1%.
-# 🚀 1Percent - L'argent devrait arriver en entier
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
 ## 💸 Le Problème
 PayPal prend 3.5%. Stripe prend 2.9% + 0.30€. Western Union prend 8-12%. 
 **Pourquoi envoyer de l'argent coûte-t-il 10x plus que le nécessaire ?**
@@ -402,24 +314,12 @@ PayPal prend 3.5%. Stripe prend 2.9% + 0.30€. Western Union prend 8-12%.
 | Stripe | 3.20€ | 96.80€ | 2.9% + 0.30€ |
 | **1Percent** | **1.00€** | **99.00€** | **1%** |
 
-## 🔧 Comment ça marche
 
-## 🌍 Focus Afrique
-Nous construisons spécifiquement pour les corridors **Europe → Afrique** avec intégration native des réseaux Mobile Money.
-
-## 🚀 Démo Live
-👉 **[Tester le comparateur de frais](https://site-tbnf2ydge.godaddysites.com)**
 
 ## 👨💻 L'Équipe
 **Barack Ndenga** - Fondateur & Développeur  
 Développeur congolais de Mont-Ngafula, Kinshasa.
 
-## 📄 Licence
-MIT License - Voir [LICENSE](LICENSE) pour les détails.
-
----
-*"Si la technologie peut commander un taxi à l'autre bout du monde en 30 secondes, elle peut aussi y envoyer de l'argent pour le prix d'une baguette."*
-MIT License
 
 Copyright (c) 2026 1Percent
 
