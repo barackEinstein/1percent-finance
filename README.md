@@ -1,6 +1,3 @@
-  
- 1percent-finance/
-
 ├── README.md                     
 ├── LICENSE                      # Licence (MIT recommandé)
 ├── .github/
