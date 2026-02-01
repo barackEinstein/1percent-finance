@@ -1,22 +1,22 @@
-├── README.md                     
-├── LICENSE                      # Licence (MIT recommandé)
-├── .github/
-│   ├── FUNDING.yml             # Pour les dons/sponsors
-│   └── ISSUE_TEMPLATE/         # Pour les contributions
-├── docs/
-│   ├── ARCHITECTURE.md         # Comment Nexus Core marche
-│   ├── API_SPEC.md            # Future API (en design)
-│   └── CORRIDORS.md           # Les corridors supportés
-├── prototypes/
-│   ├── calculator/             # Ton comparateur en ligne
-│   │   ├── index.html
-│   │   ├── style.css
-│   │   └── script.js
-│   └── routing-simulator/      # Simulateur de Nexus Core
-├── research/
-│   ├── fee-analysis/           # Analyse frais PayPal/Stripe
-│   └── mobile-money-apis/      # Documentation API africaines
-└── CONTRIBUTING.md             # Comment contribuer
+1percent-finance/
+├── backend/              # Le coeur de Nexus Core
+│   ├── src/
+│   │   ├── crawlers/    # Data Crawler (pour récupérer les taux)
+│   │   ├── optimizer/   # Cost Optimizer (algorithme de routage)
+│   │   ├── engine/      # Execution Engine
+│   │   └── api/         # Future API
+│   ├── package.json     # Dépendances (si Node.js)
+│   └── README.md        # Instructions d'installation
+├── frontend/            # Interface future (site web/app)
+│   ├── public/
+│   └── src/
+├── prototypes/          # Tes prototypes existants (calculateur, simulateur)
+├── research/            # Tes analyses
+├── docs/                # Ta documentation technique
+├── .gitignore           ★ FICHIER CRUCIAL - À créer en premier !
+├── LICENSE              # Déjà présent (MIT)
+├── README.md            # Ta page principale
+└── CONTRIBUTING.md      # Guide pour les contributeurs
 
 # 🚀 1Percent - L'argent devrait arriver en entier
 
