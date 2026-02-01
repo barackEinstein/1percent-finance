@@ -1,6 +1,7 @@
   
  1percent-finance/
-├── README.md                    # Ta vitrine principale
+
+├── README.md                     
 ├── LICENSE                      # Licence (MIT recommandé)
 ├── .github/
 │   ├── FUNDING.yml             # Pour les dons/sponsors
