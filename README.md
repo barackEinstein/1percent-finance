@@ -1,3 +1,19 @@
+
+🚀 1Percent - Redéfinir les transferts d'argent à 1% de frais
+
+Problème : PayPal (3.5%), Stripe (2.9%+0.30€), Western Union (8-12%) prennent trop.
+Solution : Nexus Core, algorithme open-source qui scanne 20+ corridors en temps réel pour trouver systématiquement le chemin le plus rapide et le moins cher.
+
+✨ Envoyez 100€, payez 1€ de frais seulement (vs 3.50€ PayPal).
+🌍 Focus corridors Europe → Afrique avec intégration Mobile Money native.
+🧠 Algorithme qui sacrifie notre marge pour votre optimisation.
+
+Pour la diaspora, les créateurs, les entrepreneurs. 
+Parce que votre argent devrait arriver en entier.
+
+🔗 Site : https://site-tbnf2ydge.godaddysites.com
+
+
 1percent-finance/
 
 ├── backend/              # Le coeur de Nexus Core
